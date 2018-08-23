@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body{
+	height: 200px;
+	font-family: 'Lato', Arial, sans-serif;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+}
+#timeline {
+	margin: auto;
+	padding: 100px;
+	width: 30%;
+	background-color: #ededed;
+	text-align: center;
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 1.25em;
+	border-radius: 10px;
+}
+h2{
+	color: #f00;
+}
+#credits{
+	position: fixed;
+	left: 1%;
+	top: 5%;
+}
