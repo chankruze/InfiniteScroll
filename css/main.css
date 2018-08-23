@@ -1,12 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-body{
+body {
 	height: 200px;
 	font-family: 'Lato', Arial, sans-serif;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+	background-color: red;
+	/* For browsers that do not support gradients */
+	background-image: linear-gradient(to right, red, yellow);
+	/* Standard syntax (must be last) */
+	margin: 0%;
 }
+
 #timeline {
-	margin: auto;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 100px;
 	width: 30%;
 	background-color: #ededed;
@@ -15,11 +21,38 @@ body{
 	font-size: 1.25em;
 	border-radius: 10px;
 }
-h2{
+
+h2 {
 	color: #f00;
 }
-#credits{
+
+#credits {
 	position: fixed;
 	left: 1%;
-	top: 5%;
+	top: 10%;
+	/* font-weight: bold; */
+	font-size: 20px;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background: #ddd;
+	color: black;
 }
