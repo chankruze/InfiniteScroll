@@ -75,3 +75,11 @@ h2 {
 	width: 200px;
 	border-radius: 5px;
 }
+.gurl{
+	height: auto;
+	width: 100%;
+}
+.gurl:nth-child(odd){
+	padding-bottom: 20px;
+}
+}
